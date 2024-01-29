@@ -8,7 +8,7 @@ title = "Evan Soskin"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[author]
+[params.author]
   name = "Evan Soskin"
   headline = "An awesome person"
   # image = "img/author.jpg"  # path relative to static directory
