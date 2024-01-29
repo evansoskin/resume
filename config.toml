@@ -1,20 +1,19 @@
-# baseURL = "https://your_domain.com/"
+baseURL = "https://your_domain.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
 title = "Evan Soskin"
-# copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[params.author]
+[author]
   name = "Evan Soskin"
-  headline = "An awesome person"
-  # image = "img/author.jpg"  # path relative to static directory
+  headline = "Resume and Links"
+  image = "img/author.jpg"  # path relative to static directory
 
   links = [
-    # { email = "mailto:hello@your_domain.com" },
+    { email = "mailto:evan.soskin@gmail.com" },
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
@@ -25,14 +24,14 @@ disableKinds = ["taxonomy", "term"]
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    # { github = "https://github.com/username" },
+    { github = "https://github.com/evansoskin" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
     # { instagram = "https://instagram.com/username" },
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://lastfm.com/user/username" },
-    # { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://linkedin.com/in/evansoskin" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
@@ -52,6 +51,7 @@ disableKinds = ["taxonomy", "term"]
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
+    { first = { href = "./content/first.md", text = "First" } }
   ]
 
 [module]
